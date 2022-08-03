@@ -15,7 +15,7 @@ const routes = [
     { path: "/", component: Home },
     { path: "/blog", component: Blog },
     { path: "/contact", component: Contact },
-    { path: "/single", component: Single },
+    { path: "/single/:id", component: Single },
 ];
 
 // 4. Create the router instance and pass the `routes` option

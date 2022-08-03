@@ -95,14 +95,14 @@ export default {
     },
     methods: {
         getPosts() {
-            // fetch("https://jsonplaceholder.typicode.com/posts")
+            // fetch("https://jsonplaceholder.typicode.com/posts?userId=1")
             //     .then((response) => response.json())
             //     .then((json) => {
             //         // console.log(json);
             //         this.posts = json;
             //     });
             this.axios
-                .get("https://jsonplaceholder.typicode.com/posts")
+                .get("https://jsonplaceholder.typicode.com/posts?userId=1")
                 .then((response) => {
                     // console.log(response.data);
                     this.posts = response.data;
@@ -119,7 +119,7 @@ export default {
     // created() {
     //     console.log(`the component is now created.`);
     //     this.axios
-    //         .get("https://jsonplaceholder.typicode.com/posts")
+    //         .get("https://jsonplaceholder.typicode.com/posts?userId=1")
     //         .then((response) => {
     //             // console.log(response.data);
     //             this.posts = response.data;
