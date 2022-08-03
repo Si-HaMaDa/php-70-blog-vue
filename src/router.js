@@ -7,6 +7,8 @@ import Home from "./pages/Home.vue";
 import Blog from "./pages/Blog.vue";
 import Contact from "./pages/Contact.vue";
 import Single from "./pages/Single.vue";
+import Users from "./pages/Users.vue";
+import User from "./pages/User.vue";
 
 // 3. Define some routes
 // Each route should map to a component.
@@ -16,6 +18,8 @@ const routes = [
     { path: "/blog", component: Blog },
     { path: "/contact", component: Contact },
     { path: "/single/:id", component: Single },
+    { path: "/users", component: Users },
+    { path: "/user/:id", component: User },
 ];
 
 // 4. Create the router instance and pass the `routes` option
