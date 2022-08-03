@@ -8,7 +8,9 @@ import Single from "./pages/Single.vue";
 import "./assets/main.css";
 
 // Bootstrap core JS
-import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js";
+// import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 
 import MyHeader from "./components/global/MyHeader.vue";
 import MyFooter from "./components/global/MyFooter.vue";
