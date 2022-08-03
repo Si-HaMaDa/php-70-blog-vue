@@ -1,5 +1,4 @@
 <template>
-    <MyHeader />
 
     <!-- Page content-->
     <div class="container mt-5">
@@ -83,5 +82,4 @@
         </div>
     </div>
 
-    <MyFooter />
 </template>

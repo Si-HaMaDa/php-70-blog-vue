@@ -1,5 +1,4 @@
 <template>
-    <MyHeader />
 
     <!-- Header-->
     <header class="py-5">
@@ -34,7 +33,6 @@
         </div>
     </section>
 
-    <MyFooter />
 </template>
 
 <script>

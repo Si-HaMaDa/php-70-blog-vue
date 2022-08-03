@@ -1,5 +1,4 @@
 <template>
-    <MyHeader />
 
     <!-- Page Content-->
     <section class="pt-4">
@@ -137,5 +136,4 @@
         </div>
     </section>
 
-    <MyFooter />
 </template>

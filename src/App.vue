@@ -1,3 +1,9 @@
 <template>
-  <h1 align="center">Hello World!</h1>
+    <MyHeader />
+
+    <!-- route outlet -->
+    <!-- component matched by the route will render here -->
+    <router-view></router-view>
+
+    <MyFooter />
 </template>
