@@ -3,6 +3,7 @@ import { createApp } from "vue";
 // import Home from "./pages/Home.vue";
 // import Blog from "./pages/Blog.vue";
 import Contact from "./pages/Contact.vue";
+import Single from "./pages/Single.vue";
 
 import "./assets/main.css";
 
@@ -13,7 +14,7 @@ import MyHeader from "./components/global/MyHeader.vue";
 import MyFooter from "./components/global/MyFooter.vue";
 import SideWidget from "./components/global/SideWidget.vue";
 
-createApp(Contact)
+createApp(Single)
     .component("MyHeader", MyHeader)
     .component("SideWidget", SideWidget)
     .component("MyFooter", MyFooter)
